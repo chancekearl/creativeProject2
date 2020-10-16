@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #659DBD;
+}
+body h1 {
+    color: #FBEEC1;
+    font-family: Futura;
+    text-align: center;
+    font-size: 25px;
+    margin: 50px 25px;
+}
+.form {
+    padding: 20px 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #BC986A;
+}
+.form p {
+    margin: 20px;
+    background-color: #BC986A;
+    color: #FBEEC1;
+}
+#exchangeSubmit {
+    margin: 20px;
+    padding: 0 5px;
+}
+.exInfo {
+    color: #FBEEC1;
+    font-size: larger;
+    font-family: Futura;
+    text-align: center;
+    background-color: #DAAD86;
+    padding: 10px 0;
+}
+.dropdown {
+    color: #FBEEC1;
+    border: 1px solid #FBEEC1;
+    background-color: #BC986A;
+}
+#exchangeSubmit {
+    background-color: #BC986A;
+    color: #FBEEC1;
+    border: solid 1px #BC986A;
+}
+#exchangeSubmit:hover {
+    background-color: #659DBD;
+    border-color: #659DBD;
+}
+.footer_container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer {
+    text-decoration: none;
+    color: #FBEEC1;
+}
+.footer:hover {
+    color: #BC986A;
+}
+@media screen and (min-width: 760px) {
+    .form {
+        flex-direction: row;
+    }
+}
